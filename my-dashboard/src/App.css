@@ -1,0 +1,85 @@
+body.light-mode {
+  background-color: #f9f9f9 !important;
+  color: #333333 !important;
+  font-family: Arial, sans-serif;
+}
+
+body.dark-mode {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+  font-family: Arial, sans-serif;
+}
+
+body.dark-mode .card {
+  background-color: #1e1e1e !important;
+  color: #e0e0e0 !important;
+  border: 1px solid #333 !important;
+}
+
+body.light-mode .card {
+  background-color: #ffffff !important;
+  color: #333333 !important;
+  border: 1px solid #ddd !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #007bff !important;
+  color: #ffffff !important;
+  border: 2px solid transparent;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+  border: 2px solid #0056b3;
+}
+
+button:disabled {
+  background-color: #888;
+  cursor: not-allowed;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.card {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 20px 0;
+  text-align: center;
+}
